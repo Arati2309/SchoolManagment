@@ -1,0 +1,72 @@
+.class-container {
+  width: 100%;
+  margin: auto;
+  background: white;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #d0e3e6;
+  padding: 10px 15px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+h2{
+    margin-left: 400px;
+    font-size: xx-large;
+}
+
+.back-arrow {
+  color: rgb(248, 171, 5);
+  font-size: 48px;
+  cursor: pointer;
+  margin-right: 10px;
+ 
+}
+
+.student-list {
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+.student-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.student-photo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.student-info p {
+  margin: 4px 0;
+}
+
+/* Fixed search icon at bottom-right */
+.search-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(252, 224, 243);
+  color: white;
+  font-size: 24px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 20;
+}
