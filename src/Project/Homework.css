@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+}
+
+.homework-container {
+  padding: 20px;
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.title {
+  font-family: cursive;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.back-arrow,
+.filter-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.date-selector {
+  margin-top: 10px;
+  background-color: rgba(238, 205, 133, 0.626);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+/* ✅ Arrow buttons for week switching */
+.arrow {
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 8px;
+  color: #333;
+}
+
+.toggle-buttons button {
+  margin-left: 10px;
+  padding: 5px 12px;
+  background: #d59c65;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 10px;
+  color: #333;
+}
+
+.card {
+  margin-top: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.completed {
+  background-color: #b8e3fe;
+}
+
+.incompleted {
+  background-color: #d6d6d6;
+}
+
+.subject-bar {
+  width: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.subject-bar.blue {
+  background-color: #0074cc;
+}
+
+.subject-bar.gray {
+  background-color: #4a4a4a;
+}
+
+.card-content {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-left p {
+  margin: 2px 0;
+}
+
+.card-right {
+  text-align: right;
+  font-size: 14px;
+}
+
+.card-right p {
+  margin: 2px 0;
+  font-weight: 500;
+}
+
+.study-message {
+  font-size: 17px;
+  margin-top: 4px;
+  font-style: italic;
+  color: #484848;
+}
