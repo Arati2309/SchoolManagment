@@ -1,0 +1,147 @@
+.calendar-container {
+  font-family: Arial;
+ width: 100%;
+ height: 100%;
+  margin: auto;
+  background-color: white;
+ 
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h2{
+    margin-left: 400px;
+    font-size: xx-large;
+}
+
+.back-arrow {
+  font-size: 50px;
+  background: none;
+  border: none;
+  color: rgb(243, 183, 31);
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-bottom: 2px solid #ddd;
+  font-size: x-large;
+}
+
+.tab {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.active {
+  color: red;
+  border-bottom: 2px solid red;
+  font-weight: bold;
+}
+
+.month-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.month-nav button {
+  font-size: 18px;
+
+  cursor: pointer;
+
+}
+.first{
+    margin-left: 180px;
+}
+
+h3{
+    margin-right: 300px;
+  margin-left: 200px;
+}
+.second{
+    margin-right: 100px;
+}
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: #00e5ff;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.day-header {
+  text-align: center;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: #cceeee;
+  padding: 5px;
+}
+
+.date-cell {
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+}
+
+.event-dot {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.event-section {
+  display: flex;
+  align-items: center;
+  background-color: #d4eef2;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.event-date {
+  background-color: rgb(250, 180, 250);
+  color: rgb(4, 2, 2);
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.event-day {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.event-month {
+  font-size: 12px;
+  text-transform: lowercase;
+}
+
+.event-details {
+  flex-grow: 1;
+}
+.date-cell.empty {
+  background-color: transparent;
+  pointer-events: none;
+}
+
+
+
+
+
