@@ -1,0 +1,33 @@
+.Head{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(171, 215, 242);
+
+}
+
+.box{
+    width: 70%;
+    height: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    background-color:  rgba(169, 204, 228, 0.301) ;
+    color:rgba(0, 0, 0, 0.636);
+    border-radius: 25px;
+    font-size: 25px;
+    display: inline-flex;
+    text-align: center;   
+}
+
+
+.img{
+    height: 80px;
+    width: 70px;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+
+}
